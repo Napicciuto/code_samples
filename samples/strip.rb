@@ -41,7 +41,7 @@ module StripePayment
   end
 
   def rental_charge_description(video)
-    "Ver on Demand Rental: #{video.title}"
+    "Movie Rental: #{video.title}"
   end
 
   def save_stripe_customer(customer)
